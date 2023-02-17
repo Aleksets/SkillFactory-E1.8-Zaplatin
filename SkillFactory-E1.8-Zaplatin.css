@@ -1,0 +1,56 @@
+.header{
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin: 20 px;
+}
+
+.logo{
+    font-size: 40px;
+    float: left;
+    padding: 25px 50px;
+}
+
+.navigation{
+    float: right;
+    font-size: 20px;
+    height: 100%;
+    padding: 0px 50px;
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 25px;
+    text-decoration: none;
+}
+ 
+.navigation a li{
+    display: table-cell;
+    color: white;
+    vertical-align: middle;
+}
+ 
+.navigation a:hover{
+    height: 100%;
+    background-color: gray;
+}
+
+.content {
+    text-align: justify;
+    text-indent: 20px;
+    padding: 0px 200px 0px 200px;
+    
+}
+
+.hobbie-title {
+    text-indent: 0px;
+    text-align: left;
+    line-height: 0.1;
+}
+
+.leftphoto {
+    float:left;
+    margin: 5px 8px 2px 0px;
+}
